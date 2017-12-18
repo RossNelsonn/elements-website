@@ -3,8 +3,8 @@
 .next-page{
     position:fixed;
     float: left;
-    top: 0.5em;
-    right: 1em;
+    top: 1em;
+    right: 2.5em;
     margin:0 auto;
     background: none; 
     z-index: 999;
@@ -12,16 +12,16 @@
 
 .back{
     position:absolute;
-    top:0.4em;
-    left:0.6em;
+    top:1em;
+    left:2.6em;
     right:50%;
     margin:0 auto;
 }
 
 .home{
     position:absolute;
-    top:0.4em;
-    left:0.6em;
+    top:1em;
+    left:2.6em;
     right:50%;
     margin:0 auto;
 }
@@ -32,7 +32,7 @@ button{
     font-size: 1.3em;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    padding: 5px 5px;
+    padding: 20px 20px;
     color: #fff;
     margin: 0 auto;
     margin: 10px 7px;
@@ -79,8 +79,8 @@ a.button{
     margin-top: 10em;
     text-align: center;
     display: block;
-    width: 3.5em;
-    padding: 15px 15px;
+    width: 4em;
+    padding: 12px 12px;
     text-decoration: none;
     background: none;
     border: 3px solid #fff;
@@ -113,7 +113,8 @@ a.button:hover {
     background: -webkit-linear-gradient(#19B5FE, #85E2FF);
     background: -o-linear-gradient(#19B5FE, #85E2FF); 
     background: -moz-linear-gradient(#19B5FE, #85E2FF); 
-    background: linear-gradient(#19B5FE, #85E2FF);  
+    background: linear-gradient(#19B5FE, #85E2FF);
+    overflow: scroll;
 
 }
 
@@ -156,6 +157,7 @@ a.button:hover {
     background: -o-linear-gradient(#F9E79F, #F4D03F); 
     background: -moz-linear-gradient(#F9E79F, #F4D03F); 
     background: linear-gradient(#FEDB1D, #F4D03F);  
+    overflow: scroll;
 }
 
 .sulfur-box-2{
@@ -197,6 +199,7 @@ a.button:hover {
     background: -o-linear-gradient(#E29C45, #F9690E); 
     background: -moz-linear-gradient(#E29C45, #F9690E); 
     background: linear-gradient(#E29C45, #F9690E); 
+    overflow: scroll;    
 }
 
 .aluminum-box-2{
@@ -240,6 +243,7 @@ a.button:hover {
     background: -o-linear-gradient(#87D37C, #26A65B); 
     background: -moz-linear-gradient(#87D37C, #26A65B); 
     background: linear-gradient(#87D37C, #26A65B);  
+    overflow: scroll;
 }
 
 .fluorine-box-2{
@@ -287,6 +291,7 @@ a.button:hover {
     background: -o-linear-gradient(#D7BDE2, #884EA0); 
     background: -moz-linear-gradient(#D7BDE2, #884EA0);
     background: linear-gradient(#D7BDE2, #884EA0); 
+    overflow: scroll;
     
 }
 
@@ -317,8 +322,19 @@ h1 {
     margin-bottom: -0.3em;
     font-weight: bold;
     margin-bottom: 0.2em;
-    margin-top: 1em;
+    margin-top:1.3em;
     }
+#test{
+     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: -0.3em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    margin-top:1.3em;
+    padding-top: 0.3em;
+    
+}
 
 h3 { 
     font-family: 'Roboto', sans-serif;
@@ -335,6 +351,7 @@ p { line-height: 1.8em;
     font-size: 1.1em;
     font-family: 'Khula', sans-serif;
     color: #ffffff;
+    padding: 0.5em;
 }
 
 ul {
